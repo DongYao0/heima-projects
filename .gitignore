@@ -1,0 +1,33 @@
+# 构建产物（当前仓库里没有，防止以后本地构建后误提交）
+target/
+build/
+dist/
+out/
+*.class
+*.war
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 依赖
+node_modules/
+unpackage/
+
+# 日志与临时文件
+logs/
+*.log
+hs_err_pid*
+.DS_Store
+Thumbs.db
+
+# 本地配置
+application-local.yml
+application-local.yaml
+*.local.yml
+
+# 本地工作记忆（不公开）
+.workbuddy-ai/
